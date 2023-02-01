@@ -3,19 +3,19 @@ import Accordion from "./Accordion";
 
 const items = [
   {
-    title: "Section 1",
+    title: "What is REACT?",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo efficitur enim, a egestas orci faucibus a. In hac habitasse platea dictumst."
+      "React is a JavaScript library for building user interfaces. It was developed by Facebook and is now maintained by Facebook and the community of individual developers and companies."
   },
   {
-    title: "Section 2",
+    title: "Why use REACT",
     content:
-      "Donec id ex commodo, malesuada mi a, fringilla nulla. Aliquam erat volutpat. In hac habitasse platea dictumst. Sed ac fringilla nulla."
+      "React makes it easier to build and maintain large applications with dynamic user interfaces. Its declarative approach allows for easier testing and debugging, and its virtual DOM allows for efficient updates and rendering of components."
   },
   {
-    title: "Section 3",
+    title: "Who uses REACT?",
     content:
-      "Ut at erat et erat faucibus congue. Sed ut enim a lacus luctus efficitur. Integer tincidunt efficitur metus, ac pharetra sem ullamcorper vel."
+      "React is used by many popular companies such as Facebook, Instagram, Airbnb, Netflix, and more. It's also widely adopted by individual developers and small to large-scale development teams."
   }
 ];
 
