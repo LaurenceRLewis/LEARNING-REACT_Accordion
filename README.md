@@ -1,5 +1,7 @@
 # LEARNING-REACT_Accordion
 
+Working example on Netify: https://csb-ef9zog.netlify.app/
+
 ## Steps used to build the component
 
 1. Import React and its required hooks, useState and useRef.
