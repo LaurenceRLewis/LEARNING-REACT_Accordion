@@ -1,5 +1,5 @@
 # LEARNING-REACT_Accordion
-**This is my attempt at learning REACT. There are many mistakes on these components and they MUST not be copied for use in production.**
+**This is my attempt at learning REACT. There are many bugs in these components and they MUST not be copied for use in production.**
 
 Working example on Netify: https://csb-ef9zog.netlify.app/
 
