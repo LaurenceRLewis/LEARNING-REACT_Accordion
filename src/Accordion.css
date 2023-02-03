@@ -1,73 +1,36 @@
-body {
-  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  font-size: 1em;
-}
-
 .accordion {
-  width: 80%;
+  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
 }
 
 .accordion-item {
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  border: 1px solid gray;
   margin-bottom: 10px;
-  overflow: hidden;
 }
 
 .accordion-header {
-  background-color: #fafafa;
-  color: #444;
+  background-color: lightgray;
+  padding: 15px;
   cursor: pointer;
-  padding: 18px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ddd;
-  transition: background-color 0.3s ease;
-}
-
-.accordion-header:hover {
-  background-color: #ddd;
+  align-items: center;
 }
 
 .accordion-title {
-  font-size: 18px;
   margin: 0;
 }
 
 .accordion-body {
-  padding: 18px;
-  background-color: #fafafa;
-  color: #444;
+  padding: 15px;
   display: none;
-  animation: fadeIn 0.3s ease;
 }
 
 .show {
   display: block;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
 .hide {
   display: none;
-  animation: fadeOut 0.3s ease;
-}
-
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
 }
